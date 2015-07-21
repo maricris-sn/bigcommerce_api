@@ -1,6 +1,8 @@
 module BigcommerceAPI
 
   class Category < Resource
+  	extend BigcommerceAPI::Countable
+
     attr_accessor :id, :parent_id, :name, :description, :sort_order, 
                   :page_title, :meta_keywords, :meta_description, 
                   :layout_file, :parent_category_list, :image_file, 

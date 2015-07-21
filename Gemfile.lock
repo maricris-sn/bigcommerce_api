@@ -60,3 +60,6 @@ DEPENDENCIES
   httparty
   jeweler
   rdoc
+
+BUNDLED WITH
+   1.10.3
